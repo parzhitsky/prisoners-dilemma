@@ -1,0 +1,20 @@
+{
+  "name": "try-monorepo",
+  "version": "0.0.1",
+  "author": "Dmytro Parzhytskyi <parzhitsky@gmail.com>",
+  "private": true,
+  "repository": "https://github.com/parzhitsky/try-monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "play": "npm start -w playground",
+    "start": "npm run && exit 1"
+  },
+  "overrides": {
+    "@types/node": "$@types/node"
+  },
+  "devDependencies": {
+    "@types/node": "^18"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // Output
+    "target": "es2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noEmit": true, // TODO: override in the derived configs if needed
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Development
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitOverride": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+  }
+}
